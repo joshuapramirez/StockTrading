@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}Register{% endblock %}
+
+{% block main %}
+    <form action="/register" method="post">
+        <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 mx-auto">
+            <label class="form-label" for="username" style="margin-bottom: 10px;">Username</label>
+            <input autofocus class="form-control" id="username" name="username" placeholder="Enter username" type="text">
+        </div>
+        <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 mx-auto">
+            <label class="form-label" for="password" style="margin-bottom: 10px; margin-top: 15px;">Password</label>
+            <input class="form-control" id="password" name="password" placeholder="Enter password" type="password">
+        </div>
+        <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 mx-auto">
+            <label class="form-label" for="confirmation" style="margin-bottom: 10px; margin-top: 15px;">Confirmation</label>
+            <input class="form-control" id="confirmation" name="confirmation" placeholder="Confirm password" type="password">
+        </div>
+        <div style="margin-top: 15px;">
+            <button class="btn btn-primary" type="submit">Register</button>
+        </div>
+    </form>
+{% endblock %}

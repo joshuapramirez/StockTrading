@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Buy
+{% endblock %}
+
+{% block main %}
+    <h1>Buy</h1>
+    <form action="/buy" method="post">
+        <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 mx-auto">
+            <label for="symbol" style="margin-bottom: 10px; margin-top: 10px;">Symbol</label>
+            <input autofocus class="form-control" id="symbol" name="symbol" placeholder="Symbol" type="text">
+        </div>
+        <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 mx-auto">
+            <label for="shares" style="margin-bottom: 10px; margin-top: 15px;">Shares</label>
+            <input class="form-control" id="shares" name="shares" placeholder="Shares" type="number">
+        </div>
+        <div style="margin-top: 10px; margin-top: 15px;">
+            <button class="btn btn-primary" type="submit">Buy</button>
+        </div>
+    </form>
+{% endblock %}
