@@ -3,8 +3,12 @@
 ## Overview
 The Stock Trading Application is a simulation platform inspired by services like TDAmeritrade. Users can look up stock prices, simulate buying and selling of stocks, and track their virtual portfolio. The application is built on Flask and utilizes the IEX Cloud API for real-time stock data. Users need to sign up for a free trial at [https://iexcloud.io/](https://iexcloud.io/) to obtain an API key for accessing stock data.
 
-# Installation
+## Preview
+<p align="center">
+<img src="/static/finance.png" alt="example" width="70%" />
+</p>
 
+# Installation
 To run the Stock Trading Application locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/joshuapramirez/stock-trading.git`
@@ -12,7 +16,6 @@ To run the Stock Trading Application locally, follow these steps:
 3. Install dependencies: `pip install -r requirements.txt`
 
 ### Set up IEX Cloud API Key
-
 - Obtain an API key by signing up at [https://iexcloud.io/](https://iexcloud.io/).
 
 Option1:
