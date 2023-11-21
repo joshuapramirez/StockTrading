@@ -5,7 +5,7 @@ The Stock Trading Application is a simulation platform inspired by services like
 
 ## Preview
 <p align="center">
-<img src="/static/finance.png" alt="example" width="70%" />
+<img src="/static/finance.png" alt="example" width="85%" />
 </p>
 
 # Installation
